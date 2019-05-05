@@ -12,7 +12,7 @@ go get github.com/bedakb/go-dribbble
 import "github.com/bedakb/go-dribbble"
 
 cfg := dribbble.NewConfig(accessToken)
-d, _ := dribbble.New(dribbble.New)
+d, _ := dribbble.New(cfg)
 
 // Get currently logged in user
 user, _ := d.User.GetUser()
