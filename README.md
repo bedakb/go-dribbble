@@ -18,3 +18,5 @@ d, _ := dribbble.New(cfg)
 user, _ := d.User.GetUser()
 fmt.Printf("%v", user)
 ```
+
+Inspired by [go-dropbox](https://github.com/tj/go-dropbox).
